@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@drawable/alarm"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="50dp"
+        android:id="@+id/select"
+        android:text="Select Time"
+        android:textColor="#0C0401"
+        android:textSize="25dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="500dp"
+            android:layout_marginLeft="40dp"
+            android:id="@+id/set"
+            android:text="Set Alarm"
+            android:backgroundTint="#21BFAD"
+            android:padding="8dp"
+            android:textSize="20dp"/>
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="500dp"
+            android:layout_marginLeft="220dp"
+            android:backgroundTint="#21BFAD"
+            android:id="@+id/cancel"
+            android:text="Cancel Alarm"
+            android:textSize="20dp"
+            android:padding="8dp"/>
+
+    </RelativeLayout>
+        
+</LinearLayout>
